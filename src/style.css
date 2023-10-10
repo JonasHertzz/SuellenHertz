@@ -1,9 +1,6 @@
 .App {
     display: grid;
-    
-}
-.grid-template-columns-3 {
-	grid-template-columns: 1fr 120px minmax(300px, 800px) 1fr;
+    grid-template-columns: 100px 600px  600px 100px;
 }
 h1, h2 {
     padding: 10px;
