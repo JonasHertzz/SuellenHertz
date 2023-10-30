@@ -18,13 +18,11 @@ nav > a:hover {
     width: 70%;
     padding-left: 15%;
 }
-.App {
-    display: grid;
-    grid-template-columns: 100px 600px  600px 100px;
-}
-h1, h2 {
+h1, h2, p {
     padding: 0px;
     text-align: center;
+    width: 70%;
+    padding-left: 15%;
   }
 
   header {
@@ -36,48 +34,16 @@ p {
     text-align: justify;
     display: flex;
 }
+.icone {
+  
+}
 
 .imagemArte {
     max-width: 200px;
     padding: 5px;
     margin: auto;
 }
-.imagemArte:hover {
-    background-color: rgba(0, 0, 0, 0.359);
+
+.imagemArte:hover{
+  background: blue;
 }
-
-
-
-
-
-.imagem-com-descricao {
-    display: inline-block;
-    position: relative;
-    margin: 10px;
-  }
-  
-  .imagem-com-descricao img {
-    width: 200px;
-    height: 200px;
-    transition: filter 0.3s ease-in-out;
-  }
-  
-  .imagem-com-descricao .descricao {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(0, 0, 0, 0.7);
-    color: white;
-    padding: 5px;
-    text-align: center;
-    display: none;
-  }
-  
-  .imagem-com-descricao.hovered img {
-    filter: grayscale(100%) brightness(0.5) sepia(1) hue-rotate(180deg);
-  }
-  
-  .imagem-com-descricao.hovered .descricao {
-    display: block;
-  }
