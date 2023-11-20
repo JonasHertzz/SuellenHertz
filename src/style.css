@@ -1,9 +1,12 @@
 
-
+* {
+    margin: 0px;
+    padding: 0px;
+}
 nav {
     background-color: purple;
     padding: 30px;
-    margin: 20px;
+    margin: 0px;
 }
 nav > a {
     color: rgb(194, 113, 194);
