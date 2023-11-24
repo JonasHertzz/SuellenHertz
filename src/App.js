@@ -62,7 +62,7 @@ function App() {
           </p>
           <h1>Portifólio</h1>
 
-          <div className='descricao' onMouseOver="mostrarDescricao()" onMouseOut="esconderDescricao()">
+          <div className='descricao' onMouseOver={mostrarDescricao} onMouseOut={esconderDescricao}>
           <a href="#"><img src={imagemArte1} alt='imagemCabeçalho' title='imagemArte' className='imagemArte' id='imagem1'/>
           <p id='descricao1'>Essa é a descricao da 1º img</p>
           </a>
