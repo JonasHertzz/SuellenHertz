@@ -2,6 +2,12 @@
 * {
     margin: 0px;
     padding: 0px;
+    background-color: rgb(227, 210, 179);
+}
+#imgCabecalho {
+    width: 100%;
+    height: auto;
+    background-size: 100%;
 }
 nav {
     background-color: purple;
@@ -13,6 +19,7 @@ nav > a {
     padding: 20px;
     text-decoration: none;
     font-weight: bold;
+    background-color: purple;
 }
 nav > a:hover {
     background-color: rgb(62, 2, 62);
@@ -37,16 +44,29 @@ p {
     text-align: justify;
     display: flex;
 }
-.icone {
-  
-}
-
 .imagemArte {
-    max-width: 200px;
+    width: 200px;
     padding: 5px;
     margin: auto;
+    height: auto;
+    transition: 0.3s ease-in-out;
 }
 
 .imagemArte:hover{
-  background: blue;
+  background: rgb(0, 0, 0);
+}
+
+.descricao {
+    position: relative;
+    display: inline-block;
+}
+
+#descricao1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3 ease-in-out;
+    color: blue;
 }
